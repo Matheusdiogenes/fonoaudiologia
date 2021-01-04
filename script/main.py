@@ -12,16 +12,16 @@ def temp(exercicio, series, index):
   for serie in range(series):
     for seg in range(60):
       cabecalho(serie, exercicio, seg, index)
-      time.sleep(0.9)
+      time.sleep(1)
       os.system('clear')
     print('Descanso de 3 segundos')
-    time.sleep(3)
+    time.sleep(4)
 
 
 def main():
   exercicios = ['U - I','ESTRALAR LINGUA (BOCA FECHHADA)','INFLAR BOCHECHA E SEGURAR', 
             'LINGUA NA BOCHECHA (DIREITA & ESQUERDA)',
-            'MASTIGAÇÃO EXAGERADA', 'MOVIMENTAR A LINGUA - SENTIDO HORÁRIO / ANTI-HORÁRIO']
+            'ASSOBIAR', 'MOVIMENTAR A LINGUA - SENTIDO HORÁRIO / ANTI-HORÁRIO']
   
   for e in exercicios:
     temp(e, 2, exercicios.index(e))    
