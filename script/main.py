@@ -12,7 +12,7 @@ def temp(exercicio, series, index):
   for serie in range(series):
     for seg in range(60):
       cabecalho(serie, exercicio, seg, index)
-      time.sleep(0.5)
+      time.sleep(0.9)
       os.system('clear')
     print('Descanso de 3 segundos')
     time.sleep(3)
