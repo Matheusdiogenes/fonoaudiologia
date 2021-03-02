@@ -21,7 +21,7 @@ def temp(exercicio, series, index):
 def main():
   exercicios = ['U - I','ESTRALAR LINGUA (BOCA FECHHADA)','INFLAR BOCHECHA E SEGURAR', 
             'LINGUA NA BOCHECHA (DIREITA & ESQUERDA)',
-            'ASSOBIAR', 'MOVIMENTAR A LINGUA - SENTIDO HORÁRIO / ANTI-HORÁRIO']
+            ' :*']
   
   for e in exercicios:
     temp(e, 2, exercicios.index(e))    
