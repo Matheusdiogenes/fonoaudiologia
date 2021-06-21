@@ -1,2 +1,2 @@
-# fonoaudiologia
-Script feito para mim auxiliar na execução dos exercicios passados pela fonoaudiologa.
+# Fonoaudiologia
+Script feito para auxiliar na execução dos exercícios passados pela fonoaudióloga.
